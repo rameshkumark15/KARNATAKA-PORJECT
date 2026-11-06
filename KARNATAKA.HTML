@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Karnataka</title>
+    <link rel="stylesheet" href="KARNATAKA.CSS">
+</head>
+<body>
+
+<header>
+    <h2>Explore Karnataka</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#places">Destinations</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Discover Beautiful Karnataka</h1>
+        <p>Explore Nature, Culture, History and Adventure</p>
+        <a href="#places" class="btn">Explore Places</a>
+    </div>
+</section>
+
+<section class="places" id="places">
+    <h1>Popular Destinations</h1>
+    <input type="text" id="search"
+        placeholder="Search tourist places..."
+        onkeyup="searchPlaces()">
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600100397608-f0107c7a8d7a?w=600">
+            <h2>Hampi</h2>
+            <p>Explore ancient monuments and beautiful history.</p>
+            <button onclick="showInfo('Hampi')">Explore More</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=600">
+            <h2>Mysuru</h2>
+            <p>Discover the royal Mysore Palace and culture.</p>
+            <button onclick="showInfo('Mysuru')">Explore More</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=600">
+            <h2>Coorg</h2>
+            <p>Enjoy green hills, coffee plantations and nature.</p>
+            <button onclick="showInfo('Coorg')">Explore More</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600">
+            <h2>Gokarna</h2>
+            <p>Discover beautiful beaches and coastal scenery.</p>
+            <button onclick="showInfo('Gokarna')">Explore More</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1>About Karnataka</h1>
+    <p>
+        Karnataka is a beautiful state in India.
+        It is famous for its historical monuments,
+        waterfalls, beaches, temples, culture and food.
+        Explore Karnataka and discover its beauty!
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Explore Karnataka | Discover Incredible Places</p>
+</footer>
+
+<script src="KARNATAKA.JS"></script>
+</body>
+</html>
